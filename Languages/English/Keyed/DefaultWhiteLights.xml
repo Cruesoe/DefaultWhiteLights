@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DWL.SettingsCategory>Default White Lights</DWL.SettingsCategory>
+  <DWL.AllLights>All lights</DWL.AllLights>
+  <DWL.ApplyAll>Apply to all existing lights</DWL.ApplyAll>
+  <DWL.ApplyAllDone>Recoloured {0} lights to match current settings.</DWL.ApplyAllDone>
+  <DWL.ApplyAllNeedGame>Load a colony to apply colours to existing lights.</DWL.ApplyAllNeedGame>
+  <DWL.RoomHeader>Room colours (optional)</DWL.RoomHeader>
+  <DWL.RoomHint>Tick a room and click its colour box to override the default for lights built there.</DWL.RoomHint>
+  <DWL.Outdoors>Outdoors</DWL.Outdoors>
+  <DWL.ClickColor>Click to choose a colour.</DWL.ClickColor>
+</LanguageData>

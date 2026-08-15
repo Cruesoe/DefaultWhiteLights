@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Vanilla standing lamp, wall lamp, and flood light all use this orange. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Glower"][glowColor="(214,148,94,0)"]/glowColor</xpath>
+    <value>
+      <glowColor>(255,255,255,0)</glowColor>
+    </value>
+  </Operation>
+
+</Patch>

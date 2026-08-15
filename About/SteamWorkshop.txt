@@ -1,0 +1,31 @@
+[h1]Default White Lights[/h1]
+Vanilla electric lights default to orange. This mod makes them white, and lets you choose a different default per room type.
+
+[h2]What it does[/h2]
+[list]
+[*] Standing lamps, wall lamps, flood lights, and other colourable electric lights default to [b]white[/b] instead of orange.
+[*] Optionally assign a colour to each room type. A light built in that room uses that colour.
+[*] Unticked rooms use the global default.
+[*] The in-game colour picker and Ideology darklight toggle still work.
+[/list]
+
+[h2]Settings[/h2]
+[b]Options → Mod options → Default White Lights[/b]
+[list]
+[*] [b]All lights[/b] — global default colour (white unless you change it). Click the colour box for the vanilla colour wheel.
+[*] [b]Room colours[/b] — tick a room and click its colour box to override the default for lights built there.
+[*] [b]Apply to all existing lights[/b] — recolours colourable electric lights already on the map to match the current settings, using the room they are in now. Load a colony first.
+[/list]
+New lights take the colour when they finish building. Lights you have already recoloured by hand keep that colour until you hit Apply.
+
+[h2]What it does not change[/h2]
+Sun lamps, torches, campfires, and other glowers that cannot be recoloured in vanilla are left alone.
+
+[h2]Requirements[/h2]
+[list]
+[*] RimWorld 1.6
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url]
+[/list]
+Safe to add to an existing save.
+
+[i]Load after Harmony.[/i]
