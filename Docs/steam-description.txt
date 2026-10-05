@@ -1,0 +1,13 @@
+[h1]Default White Lights[/h1]
+I never liked orange lights, I prefer white.
+This mod makes them white, and lets you choose a different default per room type.
+
+[h2]What does it touch?[/h2]
+[list]
+[*] Standing lamps, wall lamps, flood lights, and other colourable electric lights default to [b]white[/b] instead of orange.
+[*] Optionally assign a colour to each room type. A light built in that room uses that colour.
+[*] Unticked rooms use the global default.
+[*] The in-game colour picker and Ideology darklight toggle still work.
+[/list]
+
+Sun lamps, torches, campfires, and other glowers that cannot be recoloured in vanilla are left alone.
