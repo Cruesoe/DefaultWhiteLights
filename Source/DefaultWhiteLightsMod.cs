@@ -52,7 +52,7 @@ public class DefaultWhiteLightsSettings : ModSettings
     public Color ColorFor(RoomRoleDef? role)
     {
         if (role != null
-            && roomColors.TryGetValue(role.defName, out RoomLightColor setting)
+            && roomColors.TryGetValue(role.defName, out RoomLightColor? setting)
             && setting.enabled)
         {
             return setting.color;
@@ -112,7 +112,7 @@ public class DefaultWhiteLightsSettings : ModSettings
 
     private RoomLightColor GetOrCreate(string defName)
     {
-        if (!roomColors.TryGetValue(defName, out RoomLightColor setting))
+        if (!roomColors.TryGetValue(defName, out RoomLightColor? setting))
         {
             setting = new RoomLightColor
             {
