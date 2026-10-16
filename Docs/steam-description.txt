@@ -1,13 +1,22 @@
-[h1]Default White Lights[/h1]
-I never liked orange lights, I prefer white.
-This mod makes them white, and lets you choose a different default per room type.
+[b]Electric lights default to white instead of orange, with an optional color for each room type.[/b]
 
-[h2]What does it touch?[/h2]
+I never liked orange lights; I prefer white.
+
+[h2]Features[/h2]
 [list]
-[*] Standing lamps, wall lamps, flood lights, and other colourable electric lights default to [b]white[/b] instead of orange.
-[*] Optionally assign a colour to each room type. A light built in that room uses that colour.
-[*] Unticked rooms use the global default.
-[*] The in-game colour picker and Ideology darklight toggle still work.
+[*]Standing lamps, wall lamps, flood lights and other colorable electric lights default to white instead of orange.
+[*]Each room type can have its own color, and a light built in that room uses it.
+[*]Room types without a color of their own use the global default.
+[*]The in-game color picker and the Ideology darklight toggle still work.
+[*]Sun lamps, torches, campfires and other lights that can't be recolored in vanilla are left alone.
 [/list]
 
-Sun lamps, torches, campfires, and other glowers that cannot be recoloured in vanilla are left alone.
+[h2]Settings[/h2]
+[list]
+[*][b]All lights[/b]: the global default color.
+[*][b]Room colors[/b]: tick a room type and click its color box to override the default for lights built there.
+[*][b]Apply to all existing lights[/b]: recolors the lights already on the map to the current settings.
+[/list]
+
+[h2]Compatibility[/h2]
+Safe to add to an existing save. Lights already built keep their color until you use Apply to all existing lights.
