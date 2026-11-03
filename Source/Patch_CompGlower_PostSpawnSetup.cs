@@ -8,7 +8,8 @@ public static class Patch_CompGlower_PostSpawnSetup
 {
     public static void Postfix(CompGlower __instance, bool respawningAfterLoad)
     {
-        if (respawningAfterLoad || __instance.HasGlowColorOverride)
+        // Vanilla skips glow setup while a gravship is being placed, so lights arriving on one are left alone
+        if (respawningAfterLoad || __instance.HasGlowColorOverride || __instance.parent.BeingTransportedOnGravship)
         {
             return;
         }
