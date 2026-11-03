@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  
+
   <PropertyGroup>
     <RootNamespace>DefaultWhiteLights</RootNamespace>
     <AssemblyName>DefaultWhiteLights</AssemblyName>
     <Nullable>enable</Nullable>
     <UnityModules>CoreModule;IMGUIModule;TextRenderingModule</UnityModules>
-  </PropertyGroup></Project>
+  </PropertyGroup>
 
+</Project>

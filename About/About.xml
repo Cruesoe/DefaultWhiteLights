@@ -8,11 +8,11 @@
     <li>1.6</li>
     <li>1.7</li>
   </supportedVersions>
-  <description>Electric lights default to white instead of orange. Optionally set a colour per room type; newly built lights use that room's colour.
+  <description>Electric lights default to white instead of orange. Optionally set a color per room type; newly built lights use that room's color.
 
-Use Mod options to change the global default, enable room colours, and apply the current colours to lights already on the map.
+Use Mod options to change the global default, enable room colors, and apply the current colors to lights already on the map.
 
-The in-game colour picker and Ideology darklight toggle still work.</description>
+The in-game color picker and Ideology darklight toggle still work.</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>

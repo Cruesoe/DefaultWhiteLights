@@ -19,4 +19,4 @@ I never liked orange lights; I prefer white.
 [/list]
 
 [h2]Compatibility[/h2]
-Safe to add to an existing save. Lights already built keep their color until you use Apply to all existing lights.
+Safe to add to an existing save. Lights still on the vanilla orange turn white straight away; lights you've recolored keep their color until you use Apply to all existing lights.

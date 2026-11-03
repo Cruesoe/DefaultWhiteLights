@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-  <!-- Vanilla standing lamp, wall lamp, and flood light all use this orange. -->
+  <!-- Vanilla standing lamp, wall lamp and flood light (and modded lamps copying them) use this orange; only colorable lights are changed -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Glower"][glowColor="(214,148,94,0)"]/glowColor</xpath>
+    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Glower"][colorPickerEnabled="true"][glowColor="(214,148,94,0)"]/glowColor</xpath>
     <value>
       <glowColor>(255,255,255,0)</glowColor>
     </value>
   </Operation>
-
 </Patch>
